@@ -1,0 +1,32 @@
+{
+  "name": "reams",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "electron": "6.0.12",
+    "foreman": "^2.0.0",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.0.3",
+    "@material-ui/icons": "^3.0.1",
+    "aws-amplify": "^1.1.11",
+    "aws-amplify-react": "^2.1.5",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
+  },
+  "homepage": "./",
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "dev": "nf start -p 3000"
+  }
+}

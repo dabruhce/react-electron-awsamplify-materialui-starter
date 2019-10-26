@@ -1,7 +1,14 @@
 #### react + amplify + matui + electron
 
-I needed this but its a bit meh atm. I couldn't find any workable amplify + electron starters so I hacked this together this morning.
+I needed this but its a bit meh atm. I couldn't find any workable amplify + electron starters so I hacked this together this morning. Will make amplify instructions if I free up time
 
+
+````
+amplify init
+amplify add auth
+amplify add api
+amplify push
+````
 
 make it go
 ````
